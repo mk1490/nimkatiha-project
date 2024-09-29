@@ -9,7 +9,7 @@ services:
       MYSQL_ROOT_PASSWORD: M@tink14901490
       MYSQL_DATABASE: yamchi_db
     networks:
-      dbn:
+      db_network:
         aliases:
           - database
     volumes:
@@ -55,4 +55,5 @@ volumes:
   mysql:
   backend:
   frontend:
+  enduser:
   database:
